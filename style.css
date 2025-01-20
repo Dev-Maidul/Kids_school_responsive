@@ -38,9 +38,11 @@
 }
 main{
     width: 1158px;
+    margin: 0 auto;
 }
 footer{
     width: 1440px;
+    margin: 0 auto;
 }
 header{
     width: 1440px;
@@ -52,6 +54,9 @@ header{
 }
 .dgrid{
     display: grid;
+}
+img{
+    width: 100%;
 }
 /* Navbar Style */
 .navbar{
@@ -80,7 +85,26 @@ header{
     font-weight: bold;
     
 }
-
+/* Banner section Style */
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+.banner-titile{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.banner-des{
+    font-size: 1.12rem;
+    font-weight: normal;
+    margin-bottom: 14px;
+}
+#enroll{
+    background-color: #111111;
+    font-size: 20px;
+}
 
 
 /* Responsive media query */
