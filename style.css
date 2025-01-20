@@ -43,11 +43,11 @@ main, header {
     margin: 0 auto;
   }
   
-  footer {
+  /* footer {
     width: 100%;
     max-width: 1158px; 
     margin: 0 auto; 
-  }
+  } */
   
 .dflex {
   display: flex;
@@ -113,6 +113,9 @@ a {
   width: 50px;
   height: 50px;
   color: #111111;
+}
+.navmid {
+    width: 600px;
 }
 /* Banner section Style */
 .banner {
@@ -272,7 +275,82 @@ i.fa-solid.fa-chevron-left,
 i.fa-solid.fa-chevron-right {
   margin-top: 20px;
 }
-/*  */
+/* our story section */
+
+
+/* Footer section style */
+
+.footer{
+width: 100%;
+height: 519px;
+background: rgb(1, 172, 253);
+} 
+.footer-container{
+    width: 1070.91px;
+    height: 222px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer-brand h1{
+    color: rgb(255, 255, 255);
+font-size: 2.75rem;
+font-weight: 700;
+line-height: 39.51px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-left p{
+    color: rgb(255, 255, 255);
+margin-top: 30px;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-mid ul,li{
+    /* display: block; */
+    list-style: none;
+    margin-top: 30px;
+}
+.footer-mid ul,li,a{
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+#aboutschool{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-right h4{
+    color: rgb(255, 255, 255);
+font-size: 26px;
+font-weight: 700;
+text-align: left;
+}
+.footer-right {
+    margin-top: -42px;
+}
+.footer-left {
+    margin-top: 100px;
+}
+.footer-mid {
+    margin-top: 100px;
+}
+.social{
+    margin-top: 20px;
+    gap: 10px;
+}
 
 /* Responsive media query */
 @media screen and (max-width: 576px) {
