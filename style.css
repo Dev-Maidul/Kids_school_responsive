@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-style: normal;
+}
 h1{
     color: red;
 }
