@@ -98,7 +98,7 @@ marquee{
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  margin-left: 377px;
+  /* margin-left: 377px; */
 }
 .mobileleft {
   width: 50px;
@@ -508,10 +508,23 @@ text-align: left;
   width: 100%;
 }
 .story-card-container {
-  margin-left: 50px;
+  margin-left: 28px;
 }
 .storybtn1 {
   margin-left: 4px;
 }
+}
+@media screen and (min-width: 576px) {
+  .mobile {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 134px;
+}
+}
+
+@media screen and (min-width: 577px) {
+  .mobile {
+    display: none;
+  }
 }
 
