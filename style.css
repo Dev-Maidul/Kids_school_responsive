@@ -86,6 +86,11 @@ a {
   font-size: 2rem;
   font-weight: bold;
 }
+marquee{
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
 /* Mobile navbar */
 .mobile {
   height: 70px;
@@ -115,6 +120,10 @@ a {
 }
 .navmid {
     width: 600px;
+}
+.header-menu-con{
+  justify-content: center;
+  align-items: center;
 }
 /* Banner section Style */
 .banner {
@@ -465,6 +474,9 @@ text-align: left;
   .navbar {
     display: none;
   }
+
+
+
   section.banner {
     flex-direction: column-reverse;
     justify-content: center;
@@ -502,8 +514,4 @@ text-align: left;
   margin-left: 4px;
 }
 }
-@media screen and (min-width: 576px) {
-  .mobile {
-    display: none;
-  }
-}
+
